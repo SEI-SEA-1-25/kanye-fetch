@@ -1,3 +1,16 @@
-h1 {
-  background: chartreuse;
+body {
+  background-image: url('https://globetrender.com/wp-content/uploads/2020/05/Caribbean-beach.jpg');
+  text-align: center;
+  margin: 15px;
+}
+button {
+  margin: 90px;
+  padding: 30px;
+  border: 3px solid rgba(88, 88, 255, 0.7)
+}
+
+h2 {
+  font-family: 'Sriracha', cursive;
+  margin: 70px;
+  padding: 35px;
 }
