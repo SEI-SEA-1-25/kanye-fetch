@@ -1,4 +1,5 @@
 let quoteContainer = document.querySelector('#quote-container')
+let reset = document.getElementById('reset')
 
 const kanyeQuotes = () => {
 
@@ -14,6 +15,8 @@ const kanyeQuotes = () => {
         })
 
 }
+
+reset.addEventListener('click', kanyeQuotes)
 
 const createQuote = (quote) => {
     let div = document.createElement('div')
