@@ -16,3 +16,4 @@ function getData(){
         h1.innerHTML = `"${posts}"`
     })
 }
+getData()
