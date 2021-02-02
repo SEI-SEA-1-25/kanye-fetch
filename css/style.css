@@ -1,3 +1,50 @@
-h1 {
-  background: chartreuse;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: rgb(191, 231, 243);
+}
+.container {
+  
+  height: 700px;
+  width: 700px;
+  background: rgb(101, 203, 216);
+  border-radius: 25px;
+}
+#button {
+  height: 50px;
+  width: 120px;
+  border-radius: 5px;
+  background: rgba(2, 44, 44, 0.1);
+  color: aliceblue;
+}
+.display {
+  height: 200px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  background: rgba(14, 93, 104, 0.2);
+  border-radius: 20px;
+  margin-bottom: 25px;
+}
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h3Quotes {
+display: flex;
+justify-content: center;
+}
+h3{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: aliceblue;
+  margin: 10px;
+}
+.h3{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: aliceblue; 
 }
