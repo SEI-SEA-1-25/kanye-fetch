@@ -2,7 +2,7 @@ let kquote = document.getElementById("kquote");
 
 let resetButton = document.getElementById("reset");
 
-resetButton.addEventListener("click", function () {
+function getQuote() {
   fetch("https://api.kanye.rest/")
     .then(function (response) {
       return response.json();
@@ -13,4 +13,6 @@ resetButton.addEventListener("click", function () {
 
       kquote.innerText = posts;
     });
-});
+}
+
+resetButton.addEventListener("click", getQuote);
