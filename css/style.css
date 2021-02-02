@@ -1,3 +1,34 @@
-h1 {
-  background: chartreuse;
+/* body{
+  /* background: rgb(71, 79, 190); */
+  /* background-image: linear-gradient(to bottom right, rgb(71, 79, 190), white);
+} */ 
+body{
+  background-image: linear-gradient(to bottom right, rgb(71, 79, 190), white);
+}
+button{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+.center{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-top: 75px;
+}
+img {
+  height: 200px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+tweet {
+  text-align: center;
 }
