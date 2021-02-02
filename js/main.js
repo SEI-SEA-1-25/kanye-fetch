@@ -4,7 +4,7 @@ console.log("👀")
 //DOM references
 let quoteContainer = document.querySelector('#quote-container');
 let form = document.querySelector('#search-form')
-let textEl = document.querySelector('h2')
+let textEl = document.querySelector('.bottom-text')
 
 //event listeners
 form.addEventListener('submit', findQuote)
