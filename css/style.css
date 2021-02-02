@@ -1,3 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #f0eade;
+  margin-top: 70px;
+}
+
+img {
+  height: 200px;
+}
+
 h1 {
-  background: chartreuse;
+  font-family: "Coda Caption", sans-serif;
+}
+
+p,
+button {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#quote-container {
+  display: flexbox;
+  height: 100px;
+  width: 500px;
+  align-items: center;
+  justify-items: center;
+}
+
+#kanye-quote, .class1 {
+    font-size: 20px;
+}
+
+button {
+  padding: 10px;
+  background-color: #73839a;
+  color: white;
+  font-size: 15px;
+  margin-top: 0;
 }
