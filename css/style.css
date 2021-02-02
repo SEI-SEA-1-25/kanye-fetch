@@ -1,3 +1,13 @@
 h1 {
   background: chartreuse;
 }
+
+body {
+  text-align: center;
+
+}
+
+div {
+  max-width: 500px;
+  margin: auto;
+}
