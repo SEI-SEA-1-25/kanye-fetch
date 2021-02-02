@@ -1,8 +1,6 @@
 let tweet = document.querySelector(".container");
 let reset = document.querySelector("button");
 
-reset.addEventListener("click", gimmeWisdom);
-
 function gimmeWisdom(event) {
     event.preventDefault();
     fetch("https://api.kanye.rest/")
@@ -12,9 +10,10 @@ function gimmeWisdom(event) {
       .then(function (json) {
         // console.log(json);
         let random = json;
-        let randomWisdom = random.quote;
-        tweet.innerText = `"${randomWisdom}" -Yeezy`;
+        let ranQuote = random.quote;
+        tweet.innerText = `"${ranQuote}" by Yeezy`;
         reset.innerText = "More wisdom plz";
         document.querySelector(".container").style.textAlign = "center"
       });
   }
+  reset.addEventListener("click", gimmeWisdom);
