@@ -1,3 +1,90 @@
-h1 {
-  background: chartreuse;
+
+body {
+margin-top: 10%;
+margin-bottom: 30%; 
+margin-left: 10%;
+margin-right: 10%;
+background-color: black;
+text-align: center;
+
+
+}
+header{
+  border: solid #000 2px;
+  font-size: xx-large;
+  color: black;
+  text-align: Center;
+  font-family: 'Shadows into Light', cursive;
+
+}
+
+.yeezus-div{
+  border: solid #000 2px;
+  display:flex;
+  justify-content: center;
+}
+.yeezus {
+  border: solid #000 2px;
+  width: 55%;
+  height: auto;
+}  
+
+.quote-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left-quotation {
+
+  font-size: 200px;
+  font-family: 'Secular One', sans-serif;
+  padding-top: 2%;
+  margin-top: -40px;
+  height: 20px;
+  color: white;
+}
+
+.kanye-quote {
+  border: solid #000 2px;
+  text-align: center;
+  font-size: 45px;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-right: 2%;
+  padding-left: 2%;
+  margin-bottom: 15%; 
+  border-radius: 50px;
+  color: white;
+  font-family: 'Shadows Into Light', cursive;
+
+
+
+}
+
+.right-quotation {
+ 
+  font-size: 200px;
+  font-family: 'Secular One', sans-serif;
+  padding-top: 2%;
+  margin-top: -40px;
+  color: white;
+
+
+}
+
+footer {
+  border: solid #000 2px;
+}
+
+button {
+  margin-top: -300px;
+  margin-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-family: 'Bebas Neue', cursive;
+  background-color: White;
+  border-radius: 100rem;
 }
