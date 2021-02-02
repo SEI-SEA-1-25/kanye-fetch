@@ -1,40 +1,27 @@
-// console.log("👀")
-
 let quoteContainer = document.querySelector('#quote-container')
 
 const kanyeQuotes = () => {
 
     fetch(`https://api.kanye.rest/`)
-    .then(function(response) {
-        return response.json();
-    })
-    .then(function(json) {
-    console.log(json);
-    createQuote()
-    let quote = json.quote;
-    
-    })
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (json) {
+            console.log(json);
+            let quote = json.quote;
+            let quoteDiv = createQuote(quote)
+            quoteContainer.appendChild(quoteDiv)
+        })
 
 }
 
-const createQuote = () => {
+const createQuote = (quote) => {
+    let div = document.createElement('div')
     let h2El = document.createElement('h2')
     h2El.textContent = quote;
-    
-    while(quoteContainer.firstChild) {
-    quoteContainer.removeChild(quoteContainer.firstChild)
-   }
+    div.appendChild(h2El)
+
+    return div;
 }
 
-
-// const createQuote = () => {
-//     let divEl = document.createElement('div')
-
-//     let h2El = document.createElement('h2')
-//     h2El.textContent = quote;
-
-//     divEl.appendChild(h2El)
-
-//     return divEl
-// }
-
+kanyeQuotes()
