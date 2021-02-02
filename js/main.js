@@ -110,9 +110,17 @@ function assignQuotesToDivs(){
     console.log("quotes are assigned")
 }
 
+function clearText(){
+    for(i = 0; i<9 ; i++){
+    carousels[i].innerText = ""
+    }
+    console.log("quotes are cleared")
+}
+
 
 
 function refreshAndAssign(){
+    clearText();
     console.log("listener is activated")
     refreshQuotes();
 setTimeout(() => { assignQuotesToDivs(); }, 2000);

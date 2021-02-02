@@ -69,13 +69,13 @@ body {
 }
 
 .carousel__cell{
-  font-size:2vw;
+  font-size:1vw;
   word-wrap: break-word;
 
 }
 
 #ye_head{
-  width:50%
+  width:550px;
 }
 
 #vision{
