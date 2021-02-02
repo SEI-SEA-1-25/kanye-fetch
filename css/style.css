@@ -1,3 +1,17 @@
-h1 {
-  background: chartreuse;
+body {
+text-align: center;
+margin: 5%;
 }
+
+h3{
+  color: rgb(210, 121, 89);
+  margin: 5%;
+}
+ 
+#KanyePic{
+  height: 60%;
+  width: 50%;
+  position: absolute;
+  bottom: 0px;
+  right: 25%;
+} 
