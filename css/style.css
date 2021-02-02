@@ -18,17 +18,49 @@ body {
   margin-left: 100px;
   font-family: 'Pacifico', cursive;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+
+}
+
+h1 {
+  width: 400px;
+  font-size: 1.7em;
+  color: rgb(34, 113, 165);
+  background-color: rgba(235, 239, 240, 0.5);
+
+}
+
+#text {
+  border-style: none;
+  height: 475px;
+
+}
+#more_inspiration {
+  border-style: none;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 
 }
 
 
 
+#new_quote {
+  border-radius: 50px;
+  height: 35px;
+  width: 175px;
+  font-size: 1.1em;
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  font-family: fantasy;
+  font-weight: bolder;
 
-h1 {
-  width: 40%;
-  font-size: 1.7em;
-  color: rgb(34, 113, 165);
-  margin-left: 300px;
-  background-color: rgba(235, 239, 240, 0.5);
-
+  
+  
 }
