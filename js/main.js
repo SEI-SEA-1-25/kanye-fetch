@@ -11,8 +11,7 @@ function kanYe(event) {
       return response.json();
     })
     .then(function (json) {
-      let random = json;
-      let randomWisdom = random.quote;
+      let randomWisdom = json.quote;
       wisdom.innerText = `"${randomWisdom}"`;
       button.innerText = "Tell me more...";
     });
