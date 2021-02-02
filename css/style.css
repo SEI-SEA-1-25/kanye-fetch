@@ -1,3 +1,65 @@
-h1 {
-  background: chartreuse;
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+  position: relative;
 }
+
+body {
+  background-image: url("../bgimg.jpg");
+  background-repeat: none;
+  background-size: cover;
+}
+
+h1 {
+  background: rgb(255, 249, 83);
+  border: none;
+  border-radius: 10px;
+  width: 700px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  color: rgb(34, 2, 2);
+  font-family: 'Sriracha', cursive;
+}
+
+h2 {
+  max-width: 1500px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 280px;
+  font-size: 50px;
+  color: rgb(245, 232, 232);
+}
+
+#dot {
+  background-color:  rgb(164, 175, 61);
+  font-size: 1.1em;
+}
+
+#refreshBtn {
+  font-size: 1em;
+  width: 300px;
+  height: 50px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 80px;
+  margin-top: 150px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid yellow;
+  border-radius: 10px;
+  background-color: rgb(58, 143, 115);
+}
+
+#refreshBtn:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+
