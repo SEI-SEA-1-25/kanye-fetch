@@ -1,22 +1,29 @@
+let randomQuote = document.querySelector(".quoteWrap");
 let resetButton = document.querySelector("button");
 
-fetch("https://api.kanye.rest")
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (json) {
-    console.log(json);
-    let randomQuote = json.quote;
-    createEl(randomQuote);
-  });
+resetButton.addEventListener("click", kanYe);
 
-//new function
-function createEl(randomQuote) {
-  let divEL = document.createElement("div");
-  let h2El = document.createElement("h2");
-  document.querySelector(".quoteWrap").appendChild(divEL);
-  divEL.appendChild(h2El).innerText = `${randomQuote}`;
-
-  return divEL;
+function kanYe(event) {
+  event.preventDefault();
+  fetch("https://api.kanye.rest/")
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (json) {
+      // console.log(json);
+      let random = json;
+      let randomWisdom = random.quote;
+      randomQuote.innerText = `"${randomWisdom}" -Yeezus`;
+      resetButton.innerText = "Tell me more...";
+    });
 }
-resetButton.addEventListener("click", createEl);
+
+// //new function
+// function createEl(randomQuote) {
+//   let divEL = document.createElement("div");
+//   let h2El = document.createElement("h2");
+//   document.querySelector(".quoteWrap").appendChild(divEL);
+//   divEL.appendChild(h2El).innerText = `${randomQuote}`;
+
+//   return divEL;
+// }

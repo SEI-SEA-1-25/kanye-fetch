@@ -15,9 +15,10 @@ body {
   margin: auto;
   background-color: chartreuse;
 }
-h2 {
+.quoteWrap {
   font-family: "Unica One", cursive;
   color: chartreuse;
+  margin: 20px;
 }
 button {
   margin: 5px 0 55px 0;
