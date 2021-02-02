@@ -1,3 +1,10 @@
-h1 {
+body {
   background: chartreuse;
+  text-align: center;
+}
+h1 {
+  font-family: "Satisfy";
+}
+.highlight {
+  color: aqua;
 }
