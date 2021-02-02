@@ -37,9 +37,3 @@ function reload() {
 reloadButton.addEventListener("click", reload, false);
 
 
-var stylesheets = ["schemeone.css", "schemetwo.css"];
-var rand = Math.floor(Math.random() * stylesheets.length);
-
-$(document).ready(function(){
-document.getElementById("colorscheme").setAttribute("href", stylesheets[rand]);
-});

@@ -20,5 +20,9 @@
 }
 
 .button:hover {
-  color: red;
+  color:rgb(0, 255, 229);
+}
+
+.pick {
+  background-color: green;
 }
