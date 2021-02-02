@@ -14,16 +14,19 @@ function kanYe(event) {
       let random = json;
       let randomWisdom = random.quote;
       randomQuote.innerText = `"${randomWisdom}" -Yeezus`;
-      resetButton.innerText = "Tell me more...";
+      getKim();
     });
 }
 
-// //new function
-// function createEl(randomQuote) {
-//   let divEL = document.createElement("div");
-//   let h2El = document.createElement("h2");
-//   document.querySelector(".quoteWrap").appendChild(divEL);
-//   divEL.appendChild(h2El).innerText = `${randomQuote}`;
+const kanyeOrSadKim = document.querySelector("#gif");
 
-//   return divEL;
-// }
+function getKim() {
+  const randomNumber = Math.floor(Math.random() * Math.floor(10));
+  if (randomNumber === 5) {
+    //if randomNumber = 10 add kim
+    kanyeOrSadKim.src = "images&gifs/kimCrying.gif";
+  } else {
+    kanyeOrSadKim.src = "images&gifs/KanyeGif1.gif";
+    //hide image of sobbing
+  }
+}
