@@ -1,3 +1,24 @@
-h1 {
-  background: chartreuse;
+#post-container {
+  background:skyblue;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.button {
+  margin-top: 300px;
+  margin-left: 550px;
+  padding:30px;
+  border-radius: 5px;
+  color:white;
+  background-color: black;
+  text-decoration: dotted blanchedalmond;
+  font-size: large;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.button:hover {
+  color: red;
 }
