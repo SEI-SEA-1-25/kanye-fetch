@@ -4,8 +4,7 @@ let button = document.querySelector("button");
 
 button.addEventListener("click", kanYe);
 
-function kanYe(event) {
-  event.preventDefault();
+function kanYe() {
   fetch("https://api.kanye.rest/")
     .then(function (response) {
       return response.json();
