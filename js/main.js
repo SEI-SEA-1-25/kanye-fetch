@@ -8,12 +8,9 @@ resetButton.addEventListener("click", function () {
       return response.json();
     })
     .then(function (json) {
-      // clear();
       let posts = json.quote;
       console.log(posts);
 
       kquote.innerText = posts;
     });
 });
-
-// }
