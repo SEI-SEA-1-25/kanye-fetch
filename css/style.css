@@ -1,3 +1,24 @@
+body {
+  background-image: url("/photos/kanyephoto.jpg");
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+  display: flex;
+}
+
 h1 {
-  background: chartreuse;
+  background: white;
+  height: 30vh;
+  min-width: 30vh;
+  font-size: 20px;
+  /* margin-right: 80vw; */
+}
+
+button {
+  border: none;
+  width: 15vw;
+  height: 15vh;
+  border-radius: 10pt;
+  background-color: aquamarine;
+  margin-top: 50vh;
+  /* margin-left: 30vw; */
 }
