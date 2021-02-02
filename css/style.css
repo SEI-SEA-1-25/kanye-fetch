@@ -1,5 +1,9 @@
-*{
-  background: rgb(71, 79, 190);
+/* body{
+  /* background: rgb(71, 79, 190); */
+  /* background-image: linear-gradient(to bottom right, rgb(71, 79, 190), white);
+} */ 
+body{
+  background-image: linear-gradient(to bottom right, rgb(71, 79, 190), white);
 }
 button{
   background-color: rgb(255, 255, 255);
