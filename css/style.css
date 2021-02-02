@@ -43,11 +43,11 @@ input {
   font-size: 1.3em;
   font-family: Arial, Helvetica, sans-serif;
   position: absolute;
-  bottom: 50px;
-  right: 40px;
-  left: 40px;
+  top: 435px;
+  right: 25px;
+  left: 25px;
   text-align: center;
-  width: 400px;
+  width: 450px;
 }
 
 p {
